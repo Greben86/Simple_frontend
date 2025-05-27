@@ -1,7 +1,3 @@
-:root {
-    --max-width: 50vw;
-}
-
 .article {
     display: flex;
     flex-direction: row;
@@ -358,56 +354,6 @@
     height: auto;
 }
 
-@media (max-width: 1024px) {
-    .article-data__tag-links, .article-data__bottom-post, .article-data__bottom-hr {
-        display: none;
-    }
-}
-
-@media (max-width: 960px) {
-    .article-data {
-        margin-bottom: 20px;
-    }
-
-    .text-image-block-1 {
-        flex-direction: column;
-    }
-
-    .text-image-block-1__img {
-        max-width: 100%;
-    }
-
-    .text-image-block-2 {
-        flex-direction: column;
-    }
-
-    .text-image-block-2__img {
-        max-width: 100%;
-    }
-    
-    .article {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .sidebar__qlick, .sidebar__psychologist, .sidebar__care, .sidebar__sessions {
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media (max-width: 610px) {
-    .sidebar {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .sidebar__qlick, .sidebar__psychologist, .sidebar__care, .sidebar__sessions {
-        width: 100%;
-        height: 100%;
-    }
+:root {
+    --max-width: 50vw;
 }

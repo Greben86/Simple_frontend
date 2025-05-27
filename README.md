@@ -26,4 +26,4 @@
     ```bash
     git clone https://github.com/Greben86/Simple_frontend.git
     ```
-2. Открыть `index.html` в браузере
+2. Открыть `blog.html` в браузере
